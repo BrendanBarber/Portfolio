@@ -1,0 +1,19 @@
+title: Brendan Barber - Portfolio
+description: Personal portfolio and projects
+theme: minima
+# Or for a more wiki-like appearance:
+# remote_theme: pages-themes/minimal@v0.2.0
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Contact
+    url: /contact
