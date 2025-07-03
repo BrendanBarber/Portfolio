@@ -3,7 +3,12 @@
 
 @import "{{ site.theme }}";
 
+body {
+    padding: 0 25%; /* 25% padding on each side */
+    box-sizing: border-box;
+}
+
 .wrapper {
-    width: 50%; /* This will give you 25% margins on each side */
-    max-width: none; /* Override the theme's max-width */
+    width: 100%;
+    max-width: none;
 }

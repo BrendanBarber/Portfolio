@@ -214,4 +214,6 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   .downloads { width: 99%; }
   .downloads li, .downloads li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
-.wrapper { width: 50%; /* This will give you 25% margins on each side */ max-width: none; /* Override the theme's max-width */ }
+body { padding: 0 25%; /* 25% padding on each side */ box-sizing: border-box; }
+
+.wrapper { width: 100%; max-width: none; }
