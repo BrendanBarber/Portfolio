@@ -1,7 +1,7 @@
 /* Force consistent fonts and layout */
 * { box-sizing: border-box; }
 
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important; line-height: 1.6 !important; margin: 0 !important; padding: 0 !important; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important; line-height: 1.6 !important; max-width: 50%; margin: 0 !important; padding: 0 !important; }
 
 /* Container to center content with proper margins */
 .wrapper { max-width: 900px !important; margin: 0 auto !important; padding: 0 20px !important; }
