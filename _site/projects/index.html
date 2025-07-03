@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Projects | Brendan Barber - Portfolio</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Projects" />
+<meta name="author" content="Brendan Barber" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Current computer Science student." />
+<meta property="og:description" content="Current computer Science student." />
+<link rel="canonical" href="http://localhost:4000/projects/" />
+<meta property="og:url" content="http://localhost:4000/projects/" />
+<meta property="og:site_name" content="Brendan Barber - Portfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Projects" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@Brendan Barber" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Brendan Barber"},"description":"Current computer Science student.","headline":"Projects","url":"http://localhost:4000/projects/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Brendan Barber - Portfolio" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Brendan Barber - Portfolio</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/contact/">Contact</a><a class="page-link" href="/">Home</a><a class="page-link" href="/projects/">Projects</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <style>
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0d1117 !important;
+    color: #c9d1d9 !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #f0f6fc !important;
+  }
+  
+  a {
+    color: #58a6ff !important;
+  }
+  
+  a:hover {
+    color: #79c0ff !important;
+  }
+  
+  hr {
+    border-color: #30363d !important;
+  }
+  
+  blockquote {
+    border-left-color: #30363d !important;
+    color: #8b949e !important;
+  }
+  
+  table {
+    border-color: #30363d !important;
+  }
+  
+  th, td {
+    border-color: #30363d !important;
+    background-color: #161b22 !important;
+  }
+  
+  th {
+    background-color: #21262d !important;
+  }
+}
+
+/* Project styling for both light and dark modes */
+.project-card {
+  border: 1px solid var(--border-color, #e1e4e8);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  background: var(--card-bg, #f8f9fa);
+}
+
+.tech-stack {
+  background: #0366d6;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  margin: 0 4px;
+}
+
+.status-badge {
+  background: #28a745;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.wip-badge {
+  background: #ffc107;
+  color: #212529;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+/* Dark mode specific overrides */
+@media (prefers-color-scheme: dark) {
+  .project-card {
+    --border-color: #30363d;
+    --card-bg: #161b22;
+    border-color: #30363d;
+    background: #161b22;
+  }
+  
+  .tech-stack {
+    background: #1f6feb;
+  }
+  
+  .status-badge {
+    background: #238636;
+  }
+  
+  .wip-badge {
+    background: #d29922;
+    color: #f0f6fc;
+  }
+}
+</style>
+
+<h1 id="-animation--vfx-tools">🎬 <strong>Animation &amp; VFX Tools</strong></h1>
+<p><em>Tools created for Blender, Maya, Houdini, and Nuke. Mainly written in Python and Rust.</em></p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="️-spider-web-shot-generator-for-blender">🕸️ <strong>Spider Web Shot Generator for Blender</strong></h3>
+<p><span class="status-badge">Complete</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span></p>
+
+<p><em>A tool for Blender that provides a panel for generating stylized spider webs and web-shooting effects similar to the powers of Spider-Man.</em></p>
+
+<p><strong>🔧 Key Features:</strong></p>
+<ul>
+  <li>Generate spider webs of any size, shape, number of spokes/ribs, etc.</li>
+  <li>Choice between a shot projectile or a tether connecting the web</li>
+  <li>Generates simple animation that can be easily edited by artists</li>
+</ul>
+
+<p>[Video Example]</p>
+
+<p><strong><a href="https://github.com/BrendanBarber/Blender-Spider-Web-Shooter">⚙️ View the Code</a></strong></p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="-firework-plugin-for-houdini">🎆 <strong>Firework Plugin for Houdini</strong></h3>
+<p><span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Houdini Object Model</span></p>
+
+<p><em>An project focused on creating a system for generating spectacular firework shows in Houdini with fully procedural effects and realistic physics simulations.</em></p>
+
+<p><strong>🎯 Planned Features:</strong></p>
+<ul>
+  <li>Procedural firework burst patterns</li>
+  <li>Realistic particle physics and lighting</li>
+  <li>Ability to iterate designs quickly</li>
+</ul>
+
+<p>🚀 <em>Currently in development</em></p>
+
+<p><br /></p>
+
+<h1 id="-minecraft-moddingplugins">🎮 <strong>Minecraft Modding/Plugins</strong></h1>
+<p><em>Projects made by modifying client and server-side code in the game Minecraft. Mainly written in Java and Kotlin.</em></p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="-knights-of-the-square-table-event">🏰 <strong>Knights of the Square Table Event</strong></h3>
+<p><span class="status-badge">Active Development</span> (4+ years) | <span class="tech-stack">Java</span> <span class="tech-stack">SQL</span> <span class="tech-stack">Minecraft Paper/Spigot</span></p>
+
+<p><em>A multiplayer event system in Minecraft where 20 players compete in a tournament-style series of custom minigames. This is my largest and most complex project, with the biggest codebase I have ever built from scratch.</em></p>
+
+<p><strong>🔧 Key Features:</strong></p>
+<ul>
+  <li>Custom minigame framework with 8 unique games</li>
+  <li>Multi-server network architecture</li>
+  <li>Player statistics saved for event balancing</li>
+  <li>Custom resource packs, textures, and music</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/QJSEMpDIwVQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>💼 <em>Code available upon request.</em></p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="-mcme-music-plugin">🎵 <strong>MCME Music Plugin</strong></h3>
+<p><span class="status-badge">Complete</span> | <span class="tech-stack">Java</span> <span class="tech-stack">Bukkit API</span></p>
+
+<p><em>A dynamic music system that brings Middle-earth to life through location-based soundtracks.</em></p>
+
+<p><strong>🔧 Technical Features:</strong></p>
+<ul>
+  <li>Region-based audio triggers</li>
+  <li>Admin tools for creating and editing regions</li>
+  <li>Allows for unusual regions shapes</li>
+</ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/mExS-7PdtJM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p><strong><a href="https://github.com/GilanRanger/MCME-Music">⚙️ View the Code</a></strong>
+<strong><a href="https://www.mcmiddleearth.com/">🎮 Experience it</a></strong></p>
+
+<p><br /></p>
+
+<h2 id="-machine-learning">🤖 <strong>Machine Learning</strong></h2>
+<p><em>Machine learning models and research projects I have worked on. Mainly written in Python using PyTorch.</em></p>
+
+<hr />
+<p><br /></p>
+
+<h3 id="-automated-music-arrangement">🎼 Automated Music Arrangement</h3>
+<p><span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">PyTorch</span></p>
+
+<p><em>A research project focused on developing machine learning systems capable of automatically arranging and orchestrating music. Working alongside the Computer Science and Engineer Society team at UC San Diego to push the boundaries of AI-assisted music creation.</em></p>
+
+<p><strong>🔬 Research Goals:</strong></p>
+<ul>
+  <li>Neural network architectures for identifying parts of complex pieces</li>
+  <li>Works with MIDI file format</li>
+  <li>Efficient and can run on less powerful hardware</li>
+</ul>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Brendan Barber - Portfolio</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Brendan Barber</li><li><a class="u-email" href="mailto:brendan.t.barber@gmail.com">brendan.t.barber@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Current computer Science student.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

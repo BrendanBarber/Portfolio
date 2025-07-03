@@ -1,19 +1,100 @@
 title: Brendan Barber - Portfolio
-description: Personal portfolio and projects
-theme: minima
-# Or for a more wiki-like appearance:
-# remote_theme: pages-themes/minimal@v0.2.0
+description: >-
+  Current computer Science student.
 
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://brendanbarber.github.io" # Update with your actual GitHub Pages URL
+author: Brendan Barber
+email: brendan.t.barber@gmail.com
+
+# Theme settings
+theme: minima
+# Alternative themes you can try:
+# remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/architect@v0.2.0
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
+# SEO settings
+twitter:
+  username: # Add your Twitter handle if you have one
+  card: summary
+
+logo: # Add path to your logo if you have one
+
+social:
+  name: Brendan Barber
+  links:
+    - https://www.linkedin.com/in/brendan-barber-830a51213/
+    - https://github.com/BrendanBarber
+    - https://github.com/GilanRanger
+
+# Google Analytics (optional)
+# google_analytics: # Add your Google Analytics tracking ID
+
+# Navigation
 navigation:
-  - title: Home
-    url: /
   - title: About
     url: /about
   - title: Projects
     url: /projects
   - title: Contact
     url: /contact
+
+# Collections (if you want to add blog posts later)
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+
+# Site metadata for better SEO
+lang: en-US
+# timezone: America/Los_Angeles  # Commented out to fix Windows timezone error
+
+# Custom variables (you can use these in your templates)
+portfolio:
+  tagline: "Building tools that empower creativity"
+  keywords: "computer science, graphics programming, VFX, game development, machine learning"
+  
+github:
+  username: BrendanBarber
+  repository_url: https://github.com/BrendanBarber
+
+contact:
+  email: brendan.t.barber@gmail.com
+  linkedin: https://www.linkedin.com/in/brendan-barber-830a51213/
+  location: "San Diego, California"
