@@ -8,9 +8,6 @@ url: "https://brendanbarber.github.io" # Update with your actual GitHub Pages UR
 author: Brendan Barber
 email: brendan.t.barber@gmail.com
 
-# Theme settings
-remote_theme: pages-themes/minimal
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
