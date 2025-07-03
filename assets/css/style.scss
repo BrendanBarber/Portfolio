@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper {
+    width: 50%; /* This will give you 25% margins on each side */
+    max-width: none; /* Override the theme's max-width */
+}
