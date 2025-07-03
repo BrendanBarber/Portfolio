@@ -9,8 +9,7 @@ author: Brendan Barber
 email: brendan.t.barber@gmail.com
 
 # Theme settings
-# theme: minima
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minima
 
 # Build settings
 markdown: kramdown
