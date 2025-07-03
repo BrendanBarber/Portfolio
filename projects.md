@@ -46,6 +46,23 @@ title: Projects
   }
 }
 
+/* Global link styling - no underlines */
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Global margin styling - 25% on each side */
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 /* Project styling for both light and dark modes */
 .project-card {
   border: 1px solid var(--border-color, #e1e4e8);
@@ -100,6 +117,14 @@ title: Projects
   .wip-badge {
     background: #d29922;
     color: #f0f6fc;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    max-width: 90%;
+    padding: 0 10px;
   }
 }
 </style>

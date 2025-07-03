@@ -33,6 +33,23 @@ title: Home
   }
 }
 
+/* Global link styling - no underlines */
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Global margin styling - 25% on each side */
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 /* Hero section styling */
 .hero-section {
   text-align: center;
@@ -170,6 +187,14 @@ title: Home
   
   .stat-number {
     color: #58a6ff;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    max-width: 90%;
+    padding: 0 10px;
   }
 }
 </style>

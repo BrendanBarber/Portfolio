@@ -13,8 +13,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Current computer Science student." />
 <meta property="og:description" content="Current computer Science student." />
-<link rel="canonical" href="http://localhost:4000/about/" />
-<meta property="og:url" content="http://localhost:4000/about/" />
+<link rel="canonical" href="http://localhost:4000/Portfolio/about/" />
+<meta property="og:url" content="http://localhost:4000/Portfolio/about/" />
 <meta property="og:site_name" content="Brendan Barber - Portfolio" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
@@ -22,13 +22,10 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Brendan Barber" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Brendan Barber"},"description":"Current computer Science student.","headline":"About","name":"Brendan Barber","sameAs":["https://www.linkedin.com/in/brendan-barber-830a51213/","https://github.com/BrendanBarber","https://github.com/GilanRanger"],"url":"http://localhost:4000/about/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Brendan Barber"},"description":"Current computer Science student.","headline":"About","name":"Brendan Barber","sameAs":["https://www.linkedin.com/in/brendan-barber-830a51213/","https://github.com/BrendanBarber","https://github.com/GilanRanger"],"url":"http://localhost:4000/Portfolio/about/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=d5743490c70e282976333a5f22afa18a90b66458">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="/Portfolio/assets/css/style.css?v=a6e756d84226d46b0d222c8e71f2c6578e283fd2">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -36,29 +33,16 @@
 
 
 <!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/Portfolio/favicon.ico" -->
 
 <!-- end custom head snippets -->
 
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="http://localhost:4000/">Brendan Barber - Portfolio</a></h1>
-
-        
-
-        <p>Current computer Science student.</p>
-
-        
-        <p class="view"><a href="https://github.com/BrendanBarber">View the Project on GitHub <small>BrendanBarber/Portfolio</small></a></p>
-        
-
-        
-
-        
-      </header>
-      <section>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/Portfolio/">Brendan Barber - Portfolio</a></h1>
+      
 
       <style>
 /* Dark mode styles */
@@ -88,6 +72,23 @@
     border-left-color: #30363d !important;
     color: #8b949e !important;
   }
+}
+
+/* Global link styling - no underlines */
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Global margin styling - 25% on each side */
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 /* About page specific styling */
@@ -221,6 +222,11 @@
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {
+  body {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+  
   .intro-section {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -274,14 +280,9 @@
 </div>
 
 
-      </section>
-      <footer>
-        
-        <p>This project is maintained by <a href="https://github.com/BrendanBarber">BrendanBarber</a></p>
-        
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      
     </div>
-    <script src="/assets/js/scale.fix.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
   </body>
 </html>

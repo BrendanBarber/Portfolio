@@ -28,6 +28,23 @@ title: Contact
   }
 }
 
+/* Global link styling - no underlines */
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/* Global margin styling - 25% on each side */
+body {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 /* Simple contact styling */
 .contact-section {
   background: var(--card-bg, #f8f9fa);
@@ -131,6 +148,14 @@ title: Contact
   .contact-email {
     background: #0d1117;
     border-color: #30363d;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  body {
+    max-width: 90%;
+    padding: 0 10px;
   }
 }
 </style>

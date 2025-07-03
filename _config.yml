@@ -3,7 +3,7 @@ description: >-
   Current computer Science student.
 
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Portfolio" # Updated to match your repository name
 url: "https://brendanbarber.github.io" # Update with your actual GitHub Pages URL
 author: Brendan Barber
 email: brendan.t.barber@gmail.com
