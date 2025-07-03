@@ -197,13 +197,11 @@ body {
 }
 </style>
 
-# 👋 About Me
-
 <div class="intro-section">
   <div class="intro-text">
-    Hello! I'm Brendan, a passionate computer science student with a deep fascination for graphics programming and creative technologies. I love bridging the gap between artistic vision and technical implementation, whether that's building VFX tools for artists or creating games.
+    Hello! I'm Brendan, a computer science student with a fascination for graphics programming and creative technologies. I love bridging the gap between artistic vision and technical implementation, whether that's building VFX tools for artists or creating games.
 
-    When I'm not diving into code, you'll find me practicing violin 🎻, playing casual ice hockey 🏒, or getting lost in a good book 📚.
+    When I'm not coding, you'll find me practicing violin 🎻, playing casual ice hockey 🏒, or getting lost in a good book 📚.
   </div>
 </div>
 

@@ -133,7 +133,6 @@ body {
 # 🎬 **Animation & VFX Tools**
 *Tools created for Blender, Maya, Houdini, and Nuke. Mainly written in Python and Rust.*
 
----
 <br>
 
 ### 🕸️ **Spider Web Shot Generator for Blender**
@@ -150,7 +149,6 @@ body {
 
 **[⚙️ View the Code](https://github.com/BrendanBarber/Blender-Spider-Web-Shooter)**
 
----
 <br>
 
 ### 🎆 **Firework Plugin for Houdini**
@@ -170,7 +168,6 @@ body {
 # 🎮 **Minecraft Modding/Plugins**
 *Projects made by modifying client and server-side code in the game Minecraft. Mainly written in Java and Kotlin.*
 
----
 <br>
 
 ### 🏰 **Knights of the Square Table Event**
@@ -192,7 +189,6 @@ body {
 
 💼 *Code available upon request.*
 
----
 <br>
 
 ### 🎵 **MCME Music Plugin**
@@ -219,7 +215,6 @@ body {
 ## 🤖 **Machine Learning**
 *Machine learning models and research projects I have worked on. Mainly written in Python using PyTorch.*
 
----
 <br>
 
 ### 🎼 Automated Music Arrangement

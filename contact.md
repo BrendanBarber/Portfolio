@@ -160,8 +160,6 @@ body {
 }
 </style>
 
-# 📬 Contact
-
 <div class="contact-section">
   <h2>💼 LinkedIn</h2>
   <p>
