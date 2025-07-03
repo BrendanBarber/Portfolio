@@ -9,10 +9,8 @@ author: Brendan Barber
 email: brendan.t.barber@gmail.com
 
 # Theme settings
-theme: minima
-# Alternative themes you can try:
-# remote_theme: pages-themes/minimal@v0.2.0
-# remote_theme: pages-themes/architect@v0.2.0
+# theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Build settings
 markdown: kramdown
