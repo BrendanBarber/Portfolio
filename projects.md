@@ -155,15 +155,18 @@ body {
 
 <br>
 
-### 🎆 **Firework Plugin for Houdini**
-<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Houdini Object Model</span>
+### 🚶 **Locomotion Automatic Animator for Blender**
+<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
 
-*An project focused on creating a system for generating spectacular firework shows in Houdini with fully procedural effects and realistic physics simulations.*
+*A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.*
 
-**🎯 Planned Features:**
-- Procedural firework burst patterns
-- Realistic particle physics and lighting
-- Ability to iterate designs quickly
+**✅ Currently Completed:**
+- Path generation, editing, and following
+- Loading and blending animation cycles and static poses
+
+**🎯 In-progress Features:**
+- Dynamic speed depending on change in direction and current state of the animation
+- Non-looping animation event markers along path
 
 🚀 *Currently in development*
 
@@ -230,3 +233,13 @@ body {
 - Neural network architectures for identifying parts of complex pieces
 - Works with MIDI file format
 - Efficient and can run on less powerful hardware
+
+### 🏎️ AtiumRL
+<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Rust</span> <span class="tech-stack">PyTorch</span>
+
+*A personal machine-learning project intended on predicting next-state in the video-game Rocket League. The intention is to teach the model to predict future position of the ball and other opponents so that it can be used as a brain for a future model that will perform the actions.*
+
+**🎯 Goals:**
+- Predict ball position multiple seconds into the future
+- Predict opponent and teammate positions 
+- Visualize these predictions in-game

@@ -210,7 +210,11 @@ body {
   </a>
   
   <a href="./projects" class="nav-card">
-    <h3>⚡ Projects</h3>
+    <h3>⚡ Technical Projects</h3>
+  </a>
+
+  <a href="./creativeprojects" class="nav-card">
+    <h3>🎨 Creative Projects</h3>
   </a>
   
   <a href="./contact" class="nav-card">
@@ -222,7 +226,7 @@ body {
 
 ## 🔥 Currently Working On
 
-<span class="status-indicator status-active">🎆 Firework Plugin in Houdini</span>
+<span class="status-indicator status-active">🚶 Locomotion Automatic Animator for Blender</span>
 <span class="status-indicator status-active">🎼 Automated Music Arrangement</span>
 <span class="status-indicator status-learning">⚔️ My Medieval Minecraft Event</span>
 
