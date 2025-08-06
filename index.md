@@ -75,7 +75,7 @@ body {
 /* Navigation cards */
 .nav-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 20px;
   margin: 30px 0;
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .nav-card h3 {
-  margin: 10px 0;
+  margin: 20px 0;
   font-size: 1.3em;
 }
 
@@ -208,6 +208,10 @@ body {
   <a href="./about" class="nav-card">
     <h3>🧑‍💻 About Me</h3>
   </a>
+
+  <a href="./contact" class="nav-card">
+    <h3>📬 Get in Touch</h3>
+  </a>
   
   <a href="./projects" class="nav-card">
     <h3>⚡ Technical Projects</h3>
@@ -217,9 +221,6 @@ body {
     <h3>🎨 Creative Projects</h3>
   </a>
   
-  <a href="./contact" class="nav-card">
-    <h3>📬 Get in Touch</h3>
-  </a>
 </div>
 
 <br>

@@ -40,8 +40,10 @@ social:
 navigation:
   - title: About
     url: /about
-  - title: Projects
+  - title: Technical Projects
     url: /projects
+  - title: Creative Projects
+    url: /projectscreative
   - title: Contact
     url: /contact
 
