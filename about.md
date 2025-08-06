@@ -219,7 +219,7 @@ body {
   <div class="interest-card">
     <h3>📖 Currently Reading</h3>
     <ul class="interest-list">
-      <li>🔧 "The Perfectionists" by Simon Winchester</li>
+      <li>🪱 "Dune" by Frank Herbert</li>
       <li>🦠 "Everything is Tuberculosis" by John Green</li>
     </ul>
   </div>
