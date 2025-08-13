@@ -163,9 +163,9 @@ body {
 **✅ Currently Completed:**
 - Path generation, editing, and following
 - Loading and blending animation cycles and static poses
+- Dynamic speed depending on curvature of path and progress
 
 **🎯 In-progress Features:**
-- Dynamic speed depending on change in direction and current state of the animation
 - Non-looping animation event markers along path
 
 🚀 *Currently in development*
