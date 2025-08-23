@@ -165,10 +165,17 @@ body {
 - Loading and blending animation cycles and static poses
 - Dynamic speed depending on curvature of path and progress
 
-**🎯 In-progress Features:**
-- Non-looping animation event markers along path
+**🎯 In-progress:**
+- Bug fixes
+- Improvements to speed calculation and animation blending
 
-🚀 *Currently in development*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/YfETZoJ_Mw8"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+**[⚙️ View the Code](https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator)**
 
 <br>
 
