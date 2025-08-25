@@ -142,11 +142,28 @@ body {
 </style>
 
 # 🎬 **Film & Animation**
-*Short films and animated content created for fun by myself or with others.*
+*Short films and animated content created for fun by myself or with others. I usually do layout/previs on group projects, and on personal projects that is what I usually focus more time on.*
 
-### WIP
+### Songs of War Season 2 Episode 1
+*A fan-made project I did previs and layout on.*
 
-# 🎵 **Music & Audio**
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/VtsjLBD_5CI"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+### Inkwell and Dagger Layout/Rough Animation
+*Based on a short-story by John Flanagan, adapted to a "Minecraft-style" due to the ease of creating or using already existing assets.*
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/rQ85qlNUBiw"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+# 🎵 **Music**
 *Musical compositions I have worked on.*
 
 <br>
@@ -163,3 +180,11 @@ body {
 - Game of Thrones
 - Hytale
 - Octopath Traveler
+
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/_ssgjMNIp-w"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
