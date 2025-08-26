@@ -240,7 +240,7 @@ My most ambitious project - a complete multiplayer tournament system for Minecra
 
 **[🎮 More Info](./projects#-knights-of-the-square-table-event)**
 
-### 🕸️ Spider Web Generator for Blender
-A tool that brings Spider-Man's web-shooting abilities to Blender artists. Procedural generation of webs and web shooting animations.
+### 🚶 Locomotion Automatic Animator for Blender
+A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.
 
-**[⚙️ More Info](./projects#-spider-web-shot-generator-for-blender)**
+**[⚙️ More Info](./projects#-locomotion-automatic-animator-for-blender)**

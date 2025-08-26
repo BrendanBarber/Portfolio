@@ -241,6 +241,8 @@ body {
 - Works with MIDI file format
 - Efficient and can run on less powerful hardware
 
+![AMA Poster](assets/Towards_AMA.pdf)
+
 ### 🏎️ AtiumRL
 <span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Rust</span> <span class="tech-stack">PyTorch</span>
 
