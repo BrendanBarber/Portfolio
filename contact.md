@@ -75,16 +75,6 @@ body {
   display: inline-block;
 }
 
-.contact-links {
-  margin: 15px 0;
-}
-
-.contact-links a {
-  display: block;
-  margin: 8px 0;
-  font-size: 1.1em;
-}
-
 .contact-button {
   display: inline-block;
   background: #0366d6;
@@ -162,6 +152,7 @@ body {
 
 <div class="contact-section">
   <h2>💼 LinkedIn</h2>
+  <a href="https://www.linkedin.com/in/brendanbarber/" target="_blank" class="contact-button">LinkedIn</a>
 </div>
 
 <div class="contact-section">
@@ -177,7 +168,7 @@ body {
 <div class="contact-section">
   <h2>⚙️ Other Githubs</h2>
   <div class="contact-links">
-    <a href="https://github.com/GilanRanger" target="_blank" class="contact-button github-button">⚙️ Other Github</a>
-    <a href="https://git.capollomedia.net/gilan" target="_blank" class="contact-button gitlab-button">💼 Work GitLab</a>
+    <a href="https://github.com/GilanRanger" target="_blank" class="contact-button github-button">Other Github</a>
+    <a href="https://git.capollomedia.net/gilan" target="_blank" class="contact-button gitlab-button">Work GitLab</a>
   </div>
 </div>
