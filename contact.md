@@ -162,21 +162,11 @@ body {
 
 <div class="contact-section">
   <h2>💼 LinkedIn</h2>
-  <p>
-    <a href="https://www.linkedin.com/in/brendan-barber-830a51213/" target="_blank" class="contact-button">
-      🌟 My LinkedIn
-    </a>
-  </p>
 </div>
 
 <div class="contact-section">
   <h2>📧 Email</h2>
   <p><span class="contact-email">brendan.t.barber@gmail.com</span></p>
-  <p>
-    <a href="mailto:brendan.t.barber@gmail.com" class="contact-button email-button">
-      📧 Send Email
-    </a>
-  </p>
 </div>
 
 <div class="contact-section">

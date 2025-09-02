@@ -209,10 +209,10 @@ body {
   <div class="interest-card">
     <h3>🎮 Games I'm Playing</h3>
     <ul class="interest-list">
+      <li>🪡 SILKSONG</li>
       <li>🚗 Rocket League</li>
       <li>⛏️ Vintage Story</li>
       <li>⚔️ Kingdom Come Deliverance II</li>
-      <li>🕵️ Return of the Obra Dinn</li>
     </ul>
   </div>
 
