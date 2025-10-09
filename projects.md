@@ -135,6 +135,46 @@ body {
 
 <br>
 
+### 🚶 **Locomotion Automatic Animator for Blender**
+<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
+
+*A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.*
+
+**🔧 Key Features:**
+- Path generation, editing, and following
+- Loading and blending animation cycles and static poses
+- Dynamic speed depending on curvature of path and progress
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/YfETZoJ_Mw8"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+**[⚙️ View the Code](https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator)**
+
+<br>
+
+### 🎥 **Camera Launch Plugin for Maya**
+<span class="status-badge">Work in Progress</span> | <span class="tech-stack">C++</span> <span class="tech-stack">Python</span> <span class="tech-stack">Maya API</span>
+
+*A plugin for Maya that provides the ability to launch a camera in a direction with a set velocity.*
+
+**🔧 Key Features:**
+- Keyframes the parabolic motion of the camera
+- Ability to set the velocity, direction, and gravity
+- Custom shelf button and interface
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/8wjXVHqCinc"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+**[⚙️ View the Code](https://github.com/BrendanBarber/Maya-CameraLaunch)**
+
+<br>
+
 ### 🕸️ **Spider Web Shot Generator for Blender**
 <span class="status-badge">Complete</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
 
@@ -155,37 +195,13 @@ body {
 
 <br>
 
-### 🚶 **Locomotion Automatic Animator for Blender**
-<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
-
-*A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.*
-
-**✅ Currently Completed:**
-- Path generation, editing, and following
-- Loading and blending animation cycles and static poses
-- Dynamic speed depending on curvature of path and progress
-
-**🎯 In-progress:**
-- Bug fixes
-- Improvements to speed calculation and animation blending
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-  <iframe src="https://www.youtube.com/embed/YfETZoJ_Mw8"
-  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-  frameborder="0" allowfullscreen></iframe>
-</div>
-
-**[⚙️ View the Code](https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator)**
-
-<br>
-
 # 🎮 **Minecraft Modding/Plugins**
 *Projects made by modifying client and server-side code in the game Minecraft. Mainly written in Java and Kotlin.*
 
 <br>
 
 ### 🏰 **Knights of the Square Table Event**
-<span class="status-badge">Active Development</span> (4+ years) | <span class="tech-stack">Java</span> <span class="tech-stack">SQL</span> <span class="tech-stack">Minecraft Paper/Spigot</span>
+<span class="status-badge">Completed</span> (4+ years) | <span class="tech-stack">Java</span> <span class="tech-stack">SQL</span> <span class="tech-stack">Minecraft Paper/Spigot</span>
 
 *A multiplayer event system in Minecraft where 20 players compete in a tournament-style series of custom minigames. This is my largest and most complex project, with the biggest codebase I have ever built from scratch.*
 
