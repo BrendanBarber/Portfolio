@@ -131,16 +131,46 @@ body {
 
 
 # 🎬 **Animation & VFX Tools**
-*Tools created for Blender, Maya, Houdini, and Nuke. Mainly written in Python and Rust.*
+*Tools created for Blender, Maya, Houdini, and Nuke. Mainly written in Python and C++.*
+
+<br>
+
+**2025 TD Reel**
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/99XW3vRT4ks"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br>
+
+### 🧊 **Voxel Terrain Generator for Maya**
+<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">C++</span> <span class="tech-stack">Python</span> <span class="tech-stack">Maya API</span>
+
+*A plugin for Maya that allows heightmap images to be converted into voxel terrain. Uses OpenCL for better performance, and creates a static particle simulation for the terrain.*
+
+**Key Features:**
+- Loading heightmap images
+- Extracting voxel data from input
+- Creating terrain from voxel data
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/jBFBJ6Z2c6I"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
+**[View the Code](https://github.com/BrendanBarber/Maya-LegoTerrain)**
 
 <br>
 
 ### 🚶 **Locomotion Automatic Animator for Blender**
-<span class="wip-badge">Work in Progress</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
+<span class="status-badge">Complete</span> | <span class="tech-stack">Python</span> <span class="tech-stack">Blender API</span>
 
 *A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.*
 
-**🔧 Key Features:**
+**Key Features:**
 - Path generation, editing, and following
 - Loading and blending animation cycles and static poses
 - Dynamic speed depending on curvature of path and progress
@@ -151,16 +181,16 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
-**[⚙️ View the Code](https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator)**
+**[View the Code](https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator)**
 
 <br>
 
 ### 🎥 **Camera Launch Plugin for Maya**
-<span class="status-badge">Work in Progress</span> | <span class="tech-stack">C++</span> <span class="tech-stack">Python</span> <span class="tech-stack">Maya API</span>
+<span class="status-badge">Complete</span> | <span class="tech-stack">C++</span> <span class="tech-stack">Python</span> <span class="tech-stack">Maya API</span>
 
 *A plugin for Maya that provides the ability to launch a camera in a direction with a set velocity.*
 
-**🔧 Key Features:**
+**Key Features:**
 - Keyframes the parabolic motion of the camera
 - Ability to set the velocity, direction, and gravity
 - Custom shelf button and interface
@@ -171,7 +201,7 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
-**[⚙️ View the Code](https://github.com/BrendanBarber/Maya-CameraLaunch)**
+**[View the Code](https://github.com/BrendanBarber/Maya-CameraLaunch)**
 
 <br>
 
@@ -180,7 +210,7 @@ body {
 
 *A tool for Blender that provides a panel for generating stylized spider webs and web-shooting effects similar to the powers of Spider-Man.*
 
-**🔧 Key Features:**
+**Key Features:**
 - Generate spider webs of any size, shape, number of spokes/ribs, etc.
 - Choice between a shot projectile or a tether connecting the web
 - Generates simple animation that can be easily edited by artists
@@ -191,7 +221,7 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
-**[⚙️ View the Code](https://github.com/BrendanBarber/Blender-Spider-Web-Shooter)**
+**[View the Code](https://github.com/BrendanBarber/Blender-Spider-Web-Shooter)**
 
 <br>
 
@@ -205,7 +235,7 @@ body {
 
 *A multiplayer event system in Minecraft where 20 players compete in a tournament-style series of custom minigames. This is my largest and most complex project, with the biggest codebase I have ever built from scratch.*
 
-**🔧 Key Features:**
+**Key Features:**
 - Custom minigame framework with 8 unique games
 - Multi-server network architecture
 - Player statistics saved for event balancing
@@ -217,7 +247,7 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
-💼 *Code available upon request.*
+*Code available upon request.*
 
 <br>
 
@@ -226,7 +256,7 @@ body {
 
 *A dynamic music system that brings Middle-earth to life through location-based soundtracks.*
 
-**🔧 Technical Features:**
+**Technical Features:**
 - Region-based audio triggers
 - Admin tools for creating and editing regions
 - Allows for unusual regions shapes
@@ -237,8 +267,8 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
-**[⚙️ View the Code](https://github.com/GilanRanger/MCME-Music)**
-**[🎮 Experience it](https://www.mcmiddleearth.com/)**
+**[View the Code](https://github.com/GilanRanger/MCME-Music)**
+**[Experience it](https://www.mcmiddleearth.com/)**
 
 <br>
 
@@ -252,7 +282,7 @@ body {
 
 *A research project focused on developing machine learning systems capable of automatically arranging and orchestrating music. Working alongside the Computer Science and Engineer Society team at UC San Diego to push the boundaries of AI-assisted music creation.*
 
-**🔬 Research Goals:**
+**Research Goals:**
 - Neural network architectures for identifying parts of complex pieces
 - Works with MIDI file format
 - Efficient and can run on less powerful hardware
