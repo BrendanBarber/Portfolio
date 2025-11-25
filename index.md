@@ -227,9 +227,8 @@ body {
 
 ## 🔥 Currently Working On
 
-<span class="status-indicator status-active">🚶 Locomotion Automatic Animator for Blender</span>
-<span class="status-indicator status-active">🎼 Automated Music Arrangement</span>
-<span class="status-indicator status-learning">⚔️ My Medieval Minecraft Event</span>
+<span class="status-indicator status-active">USD Rig Validator for Maya</span>
+<span class="status-indicator status-learning">My Medieval Minecraft Event</span>
 
 <br>
 
@@ -240,7 +239,7 @@ My most ambitious project - a complete multiplayer tournament system for Minecra
 
 **[🎮 More Info](./projects#-knights-of-the-square-table-event)**
 
-### 🚶 Locomotion Automatic Animator for Blender
-A project focused on creativing a tool for automatically animating walking and running along a path for a rig to speed up layout and animating background characters.
+### 🧊 **Voxel Terrain Generator for Maya**
+A plugin for Maya that allows heightmap images to be converted into voxel terrain. Uses OpenCL for better performance, and creates a static particle simulation for the terrain.
 
-**[⚙️ More Info](./projects#-locomotion-automatic-animator-for-blender)**
+**[⚙️ More Info](./projects#-voxel-terrain-generator-for-maya)**
