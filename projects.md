@@ -264,6 +264,23 @@ body {
 
 <br>
 
+### 🐉 **Godot Wild Game Jam: Pryderi upon the Gwyddbwyll**
+<span class="status-badge">Complete</span> <span class="tech-stack">Godot</span> <span class="tech-stack">GDScript</span>
+
+*Turn-based battle game on a grid against creatures from Welsh Mythology. The player rolls dice to calculate movement, damage, and blocking. Created in the Godot game engine.*
+
+**Key Features:**
+- Made in Godot
+- Turn-based game
+- Passable pixel art created by me
+- Created in about 20 hours of work
+
+![Game Jam](assets/game_jam.png)
+
+**[View the Code](https://github.com/GilanRanger/GodotWildJam70)**
+
+<br>
+
 ### 🎵 **MCME Music Plugin**
 <span class="status-badge">Complete</span> | <span class="tech-stack">Java</span> <span class="tech-stack">Bukkit API</span>
 
