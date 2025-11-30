@@ -225,8 +225,21 @@ body {
 
 <br>
 
-# 🎮 **Minecraft Modding/Plugins**
-*Projects made by modifying client and server-side code in the game Minecraft. Mainly written in Java and Kotlin.*
+### **Hytale Model Verifier for Blockbench**
+<span class="status-badge">Complete</span> | <span class="tech-stack">Javascript</span> <span class="tech-stack">Blockbench API</span>
+
+*A tool for Blockbench that provides tools for verifying that models are made from cuboid regions and have the correct UV mapping to be imported into the game Hytale.*
+
+**Key Features:**
+- Checks model for compliance with game standards
+- Tool for converting cuboid and plane meshes into "to/from" cubes
+- Tool for automatically scaling the UV and fixing incorrect per-face UVs
+
+**[View the Code](https://github.com/GilanRanger/Blockbench-HytaleVerify)**
+
+
+# 🎮 **Game Development/Modding**
+*Projects made by modifying client and server-side code in existing games, or created in game engines.*
 
 <br>
 
