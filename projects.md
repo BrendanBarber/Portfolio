@@ -235,6 +235,8 @@ body {
 - Tool for converting cuboid and plane meshes into "to/from" cubes
 - Tool for automatically scaling the UV and fixing incorrect per-face UVs
 
+![Hytale Verify](assets/hytaleVerify.png)
+
 **[View the Code](https://github.com/GilanRanger/Blockbench-HytaleVerify)**
 
 
