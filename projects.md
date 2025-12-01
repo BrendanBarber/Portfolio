@@ -427,7 +427,6 @@ body {
           <li>Tool for automatically scaling the UV and fixing incorrect per-face UVs</li>
         </ul>
       </div>
-![Hytale Verify](assets/hytaleVerify.png)
       <div class="project-links">
         <a href="https://github.com/GilanRanger/Blockbench-HytaleVerify" class="project-link" target="_blank">View Code →</a>
       </div>
@@ -497,7 +496,6 @@ body {
           <li>Created in about 20 hours of work</li>
         </ul>
       </div>
-![Game Jam](assets/game_jam.png)
       <div class="project-links">
         <a href="https://github.com/GilanRanger/GodotWildJam70" class="project-link" target="_blank">View Code →</a>
       </div>
@@ -567,7 +565,6 @@ body {
           <li>Efficient and can run on less powerful hardware</li>
         </ul>
       </div>
-![AMA](assets/Towards_AMA.jpg)
     </div>
   </div>
 
