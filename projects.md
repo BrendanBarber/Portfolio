@@ -427,6 +427,7 @@ body {
           <li>Tool for automatically scaling the UV and fixing incorrect per-face UVs</li>
         </ul>
       </div>
+      <img src="../assets/hytaleVerify.png" alt="Hytale Verify" style="width: 100%; border-radius: 8px; margin: 20px 0;">
       <div class="project-links">
         <a href="https://github.com/GilanRanger/Blockbench-HytaleVerify" class="project-link" target="_blank">View Code →</a>
       </div>
