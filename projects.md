@@ -31,7 +31,7 @@ a {
 
 /* Global margin styling */
 body {
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
