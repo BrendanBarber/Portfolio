@@ -141,7 +141,7 @@ body {
 }
 </style>
 
-# 🎬 **Film & Animation**
+# **Film & Animation**
 *Short films and animated content created for fun by myself or with others. I usually do layout/previs on group projects, and on personal projects that is what I usually focus more time on.*
 
 **2025 Layout/General Reel**
@@ -171,17 +171,17 @@ body {
 </div>
 
 
-# 🎵 **Music**
+# **Music**
 *Musical compositions I have worked on.*
 
 <br>
 
-### 🎹 **Music Arrangements**
+### **Music Arrangements**
 <span class="creative-badge">Ongoing</span> | <span class="tech-stack">MuseScore</span>
 
 *Arrangements of popular film and game music I have made for a club at UCSD, The Intermission Orchestra. I also play violin in the orchestra.*
 
-**🎶 Arrangments:**
+**Arrangments:**
 - Helldivers 2
 - Rogue One: A Star Wars Story
 - Andor

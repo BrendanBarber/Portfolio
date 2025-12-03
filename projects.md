@@ -265,14 +265,14 @@ body {
 }
 </style>
 
-# 🎬 **Animation & VFX Tools**
+# **Animation & VFX Tools**
 <p class="section-subtitle">Tools created for Blender, Maya, Houdini, and Nuke. Mainly written in Python and C++.</p>
 
 <div class="projects-grid">
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🧊</span> Voxel Terrain Generator</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Voxel Terrain Generator</h3>
     </div>
     <div class="badges">
       <span class="wip-badge">WIP</span>
@@ -283,7 +283,7 @@ body {
     <p class="project-description">
       Maya plugin that converts heightmap images into voxel terrain using OpenCL for performance.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -298,7 +298,7 @@ body {
         <iframe src="https://www.youtube.com/embed/jBFBJ6Z2c6I" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="project-links">
-        <a href="https://github.com/BrendanBarber/Maya-LegoTerrain" class="project-link" target="_blank">View Code →</a>
+        <a href="https://github.com/BrendanBarber/Maya-LegoTerrain" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
@@ -306,7 +306,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🚶</span> Locomotion Auto Animator</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Locomotion Auto Animator</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -316,7 +316,7 @@ body {
     <p class="project-description">
       Automatic walking and running animation along paths for Blender rigs.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -331,7 +331,7 @@ body {
         <iframe src="https://www.youtube.com/embed/YfETZoJ_Mw8" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="project-links">
-        <a href="https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator" class="project-link" target="_blank">View Code →</a>
+        <a href="https://github.com/BrendanBarber/Blender-LocomotionAutoAnimator" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
@@ -339,7 +339,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🎥</span> Camera Launch Plugin</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Camera Launch Plugin</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -350,7 +350,7 @@ body {
     <p class="project-description">
       Launch cameras with physics-based parabolic motion in Maya.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -373,7 +373,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🕸️</span> Spider Web Shot Generator</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Spider Web Shot Generator</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -383,7 +383,7 @@ body {
     <p class="project-description">
       Generate stylized spider webs and web-shooting effects in Blender.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -398,7 +398,7 @@ body {
         <iframe src="https://www.youtube.com/embed/EzVpIOhXq8c" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="project-links">
-        <a href="https://github.com/BrendanBarber/Blender-Spider-Web-Shooter" class="project-link" target="_blank">View Code →</a>
+        <a href="https://github.com/BrendanBarber/Blender-Spider-Web-Shooter" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
@@ -406,7 +406,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🎮</span> Hytale Model Verifier</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Hytale Model Verifier</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -416,7 +416,7 @@ body {
     <p class="project-description">
       Verify and convert models for Hytale game compatibility in Blockbench.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -429,20 +429,20 @@ body {
       </div>
       <img src="../assets/hytaleVerify.png" alt="Hytale Verify" style="width: 100%; border-radius: 8px; margin: 20px 0;">
       <div class="project-links">
-        <a href="https://github.com/GilanRanger/Blockbench-HytaleVerify" class="project-link" target="_blank">View Code →</a>
+        <a href="https://github.com/GilanRanger/Blockbench-HytaleVerify" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
 </div>
 
-<h2 class="section-header">🎮 Game Development/Modding</h2>
+<h2 class="section-header">Game Development/Modding</h2>
 <p class="section-subtitle">Projects made by modifying client and server-side code in existing games, or created in game engines.</p>
 
 <div class="projects-grid">
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🏰</span> Knights of the Square Table</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Knights of the Square Table</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -453,7 +453,7 @@ body {
     <p class="project-description">
       Tournament-style multiplayer event with 8 custom minigames. My largest project to date.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -475,7 +475,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🐉</span> Pryderi upon the Gwyddbwyll</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Pryderi upon the Gwyddbwyll</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -485,7 +485,7 @@ body {
     <p class="project-description">
       Turn-based battle game inspired by Welsh mythology. Created for Godot Wild Game Jam.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -499,7 +499,7 @@ body {
       </div>
       <img src="../assets/game_jam.png" alt="Game Jam" style="width: 100%; border-radius: 8px; margin: 20px 0;">
       <div class="project-links">
-        <a href="https://github.com/GilanRanger/GodotWildJam70" class="project-link" target="_blank">View Code →</a>
+        <a href="https://github.com/GilanRanger/GodotWildJam70" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
@@ -507,7 +507,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🎵</span> MCME Music Plugin</h3>
+      <h3 class="project-title"><span class="project-icon"></span> MCME Music Plugin</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -517,7 +517,7 @@ body {
     <p class="project-description">
       Dynamic music system with location-based soundtracks for Middle-earth.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -532,21 +532,21 @@ body {
         <iframe src="https://www.youtube.com/embed/mExS-7PdtJM" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="project-links">
-        <a href="https://github.com/GilanRanger/MCME-Music" class="project-link" target="_blank">View Code →</a>
-        <a href="https://www.mcmiddleearth.com/" class="project-link" target="_blank">Experience it →</a>
+        <a href="https://github.com/GilanRanger/MCME-Music" class="project-link" target="_blank">View Code</a>
+        <a href="https://www.mcmiddleearth.com/" class="project-link" target="_blank">Experience it</a>
       </div>
     </div>
   </div>
 </div>
 
-<h2 class="section-header">🤖 Machine Learning</h2>
+<h2 class="section-header">Machine Learning</h2>
 <p class="section-subtitle">Machine learning models and research projects. Mainly written in Python using PyTorch.</p>
 
 <div class="projects-grid">
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🎼</span> Automated Music Arrangement</h3>
+      <h3 class="project-title"><span class="project-icon"></span> Automated Music Arrangement</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -556,7 +556,7 @@ body {
     <p class="project-description">
       Research on ML systems for automatic music arrangement and orchestration.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">
@@ -574,7 +574,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon">🏎️</span> AtiumRL</h3>
+      <h3 class="project-title"><span class="project-icon"></span> AtiumRL</h3>
     </div>
     <div class="badges">
       <span class="wip-badge">WIP</span>
@@ -585,7 +585,7 @@ body {
     <p class="project-description">
       Next-state prediction for Rocket League using machine learning.
     </p>
-    <div class="expand-indicator">Click for details →</div>
+    <div class="expand-indicator">Click for details</div>
     
     <div class="expanded-content">
       <div class="features-list">

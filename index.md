@@ -206,40 +206,40 @@ body {
 
 <div class="nav-grid">
   <a href="./about" class="nav-card">
-    <h3>🧑‍💻 About Me</h3>
+    <h3>About Me</h3>
   </a>
 
   <a href="./contact" class="nav-card">
-    <h3>📬 Get in Touch</h3>
+    <h3>Get in Touch</h3>
   </a>
   
   <a href="./projects" class="nav-card">
-    <h3>⚡ Technical Projects</h3>
+    <h3>Technical Projects</h3>
   </a>
 
   <a href="./creativeprojects" class="nav-card">
-    <h3>🎨 Creative Projects</h3>
+    <h3>Creative Projects</h3>
   </a>
   
 </div>
 
 <br>
 
-## 🔥 Currently Working On
+## Currently Working On
 
 <span class="status-indicator status-active">USD Rig Validator for Maya</span>
 <span class="status-indicator status-learning">My Medieval Minecraft Event</span>
 
 <br>
 
-## ⭐ Featured Projects
+## Featured Projects
 
-### 🏰 Knights of the Square Table Event
+### **Knights of the Square Table Event**
 My most ambitious project - a complete multiplayer tournament system for Minecraft with **100,000+ lines of code**. Features custom minigames for an event with 4 teams with 5 people.
 
-**[🎮 More Info](./projects#-knights-of-the-square-table-event)**
+**[More Info](./projects#-knights-of-the-square-table-event)**
 
-### 🧊 **Voxel Terrain Generator for Maya**
+### **Voxel Terrain Generator for Maya**
 A plugin for Maya that allows heightmap images to be converted into voxel terrain. Uses OpenCL for better performance, and creates a static particle simulation for the terrain.
 
-**[⚙️ More Info](./projects#-voxel-terrain-generator-for-maya)**
+**[More Info](./projects#-voxel-terrain-generator-for-maya)**

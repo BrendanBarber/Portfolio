@@ -151,22 +151,22 @@ body {
 </style>
 
 <div class="contact-section">
-  <h2>💼 LinkedIn</h2>
+  <h2>LinkedIn</h2>
   <a href="https://www.linkedin.com/in/brendanbarber/" target="_blank" class="contact-button">LinkedIn</a>
 </div>
 
 <div class="contact-section">
-  <h2>📧 Email</h2>
+  <h2>Email</h2>
   <p><span class="contact-email">brendan.t.barber@gmail.com</span></p>
 </div>
 
 <div class="contact-section">
-  <h2>📍 Location</h2>
-  <p>☀️ San Diego, California</p>
+  <h2>Location</h2>
+  <p>San Diego, California</p>
 </div>
 
 <div class="contact-section">
-  <h2>⚙️ Other Githubs</h2>
+  <h2>Other Githubs</h2>
   <div class="contact-links">
     <a href="https://github.com/GilanRanger" target="_blank" class="contact-button github-button">Other Github</a>
     <a href="https://git.capollomedia.net/gilan" target="_blank" class="contact-button gitlab-button">Work GitLab</a>

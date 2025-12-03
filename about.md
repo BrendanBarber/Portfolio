@@ -199,7 +199,7 @@ body {
 
 <div class="intro-section">
   <div class="intro-text">
-    Hello! I'm Brendan, a computer science student with a fascination for graphics programming and creative technologies. I love bridging the gap between artistic vision and technical implementation, whether that's building VFX tools for artists or creating games.
+    Hello! I'm Brendan, a computer science student with a fascination for graphics programming and creative technologies. I love bridging the gap between artistic vision and technical implementation, whether that's building VFX tools for artists or creating video games.
 
     When I'm not coding, you'll find me practicing violin 🎻, playing casual ice hockey 🏒, or getting lost in a good book 📚.
   </div>
@@ -209,27 +209,27 @@ body {
   <div class="interest-card">
     <h3>🎮 Games I'm Playing</h3>
     <ul class="interest-list">
-      <li>🪡 SILKSONG</li>
-      <li>🚗 Rocket League</li>
-      <li>⛏️ Vintage Story</li>
-      <li>⚔️ Kingdom Come Deliverance II</li>
+      <li>SILKSONG</li>
+      <li>Rocket League</li>
+      <li>Vintage Story</li>
+      <li>Kingdom Come Deliverance II</li>
     </ul>
   </div>
 
   <div class="interest-card">
     <h3>📖 Currently Reading</h3>
     <ul class="interest-list">
-      <li>🪱 "Dune" by Frank Herbert</li>
-      <li>🦠 "Everything is Tuberculosis" by John Green</li>
+      <li>"Dune" by Frank Herbert</li>
+      <li>"Salt Sugar Fat" by Michael Moss</li>
     </ul>
   </div>
 </div>
 
 <div class="education-section">
-  <h2>🎓 Education</h2>
+  <h2>Education</h2>
   <h3>University of California, San Diego</h3>
   <p><strong>Bachelor of Science in Computer Science</strong></p>
-  <p>Sophomore Year • Expected Graduation: 2028</p>
+  <p>Expected Graduation: 2027</p>
   
   <div style="margin-top: 20px;">
     <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Computer Graphics, Software Engineering
