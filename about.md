@@ -207,7 +207,7 @@ body {
 
 <div class="interest-grid">
   <div class="interest-card">
-    <h3>🎮 Games I'm Playing</h3>
+    <h3>Games I'm Playing</h3>
     <ul class="interest-list">
       <li>SILKSONG</li>
       <li>Rocket League</li>
@@ -217,7 +217,7 @@ body {
   </div>
 
   <div class="interest-card">
-    <h3>📖 Currently Reading</h3>
+    <h3>Currently Reading</h3>
     <ul class="interest-list">
       <li>"Dune" by Frank Herbert</li>
       <li>"Salt Sugar Fat" by Michael Moss</li>

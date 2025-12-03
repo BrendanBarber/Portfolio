@@ -272,7 +272,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon"></span> Voxel Terrain Generator</h3>
+      <h3 class="project-title"><span class="project-icon"></span>Voxel Terrain Generator</h3>
     </div>
     <div class="badges">
       <span class="wip-badge">WIP</span>
@@ -306,7 +306,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon"></span> Locomotion Auto Animator</h3>
+      <h3 class="project-title"><span class="project-icon"></span>Locomotion Auto Animator</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -339,7 +339,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon"></span> Camera Launch Plugin</h3>
+      <h3 class="project-title"><span class="project-icon"></span>Camera Launch Plugin</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -373,7 +373,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon"></span> Spider Web Shot Generator</h3>
+      <h3 class="project-title"><span class="project-icon"></span>Spider Web Shot Generator</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -406,7 +406,7 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
-      <h3 class="project-title"><span class="project-icon"></span> Hytale Model Verifier</h3>
+      <h3 class="project-title"><span class="project-icon"></span>Hytale Model Verifier</h3>
     </div>
     <div class="badges">
       <span class="status-badge">Complete</span>
@@ -430,6 +430,26 @@ body {
       <img src="../assets/hytaleVerify.png" alt="Hytale Verify" style="width: 100%; border-radius: 8px; margin: 20px 0;">
       <div class="project-links">
         <a href="https://github.com/GilanRanger/Blockbench-HytaleVerify" class="project-link" target="_blank">View Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card" onclick="toggleExpand(this)">
+    <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
+    <div class="project-header">
+      <h3 class="project-title"><span class="project-icon"></span>TD Reel 2025</h3>
+    </div>
+    <div class="badges">
+      <span class="status-badge">Complete</span>
+    </div>
+    <p class="project-description">
+      A reel of my TD-related work from 2025.
+    </p>
+    <div class="expand-indicator">Click for details</div>
+    
+    <div class="expanded-content">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/sKiDmklvakQ" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
   </div>
