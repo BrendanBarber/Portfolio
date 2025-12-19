@@ -275,7 +275,7 @@ body {
       <h3 class="project-title"><span class="project-icon"></span>Voxel Terrain Generator</h3>
     </div>
     <div class="badges">
-      <span class="wip-badge">WIP</span>
+      <span class="status-badge">Complete</span>
       <span class="tech-stack">C++</span>
       <span class="tech-stack">Python</span>
       <span class="tech-stack">Maya API</span>
@@ -414,7 +414,7 @@ body {
       <span class="tech-stack">Blockbench API</span>
     </div>
     <p class="project-description">
-      Verify and convert models for Hytale game compatibility in Blockbench.
+      Verify and convert models for Hytale game compatibility in Blockbench. Has more than 100+ downloads.
     </p>
     <div class="expand-indicator">Click for details</div>
     
