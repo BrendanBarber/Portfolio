@@ -152,6 +152,15 @@ body {
   frameborder="0" allowfullscreen></iframe>
 </div>
 
+### MTN Intro Animation
+*Animated in Blender, edited in DaVinci Resolve, music created in MuseScore, mixed/processed in Audacity.*
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 20px 0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="https://www.youtube.com/embed/ZXADrA2an38"
+  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+  frameborder="0" allowfullscreen></iframe>
+</div>
+
 ### Songs of War Season 2 Episode 1
 *A fan-made project I did previs and layout on.*
 

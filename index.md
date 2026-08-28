@@ -227,8 +227,8 @@ body {
 
 ## Currently Working On
 
-<span class="status-indicator status-active">USD Rig Validator for Maya</span>
-<span class="status-indicator status-learning">My Medieval Minecraft Event</span>
+<span class="status-indicator status-active">WoWTale Blockbench Plugin</span>
+<span class="status-indicator status-learning">Specious Sites</span>
 
 <br>
 

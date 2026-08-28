@@ -437,6 +437,35 @@ body {
   <div class="project-card" onclick="toggleExpand(this)">
     <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
     <div class="project-header">
+      <h3 class="project-title"><span class="project-icon"></span>WoWTale Blockbench Plugin</h3>
+    </div>
+    <div class="badges">
+      <span class="status-badge">Complete</span>
+      <span class="tech-stack">JavaScript</span>
+      <span class="tech-stack">Blockbench API</span>
+    </div>
+    <p class="project-description">
+      A Blockbench development plugin for the WoWTale Project. Its core feature imports 3D models, animations, and 2D images as non-exported modeling references from the software wow.export into Blockbench to help make Hytale models.
+    </p>
+    <div class="expand-indicator">Click for details</div>
+    
+    <div class="expanded-content">
+      <div class="features-list">
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Imports 3D references (OBJ/glTF/GLB)</li>
+          <li>Also imports the animations</li>
+          <li>Does not actually exist in the scene, but is still saved in the project</li>
+        </ul>
+      </div>
+      <img src="../assets/WoWTaleBlockbenchPlugin.png" alt="WoWTale Blockbench Plugin" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+      <p style="color: #8b949e; margin-top: 15px; font-style: italic;">Internal tool for the WoWTale team.</p>
+    </div>
+  </div>
+
+  <div class="project-card" onclick="toggleExpand(this)">
+    <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
+    <div class="project-header">
       <h3 class="project-title"><span class="project-icon"></span>TD Reel 2025</h3>
     </div>
     <div class="badges">
@@ -450,6 +479,51 @@ body {
     <div class="expanded-content">
       <div class="video-container">
         <iframe src="https://www.youtube.com/embed/sKiDmklvakQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="section-header">Graphics / Rendering</h2>
+<p class="section-subtitle">Renderers and graphics research written from scratch, mainly in C++.</p>
+
+<div class="projects-grid">
+  <div class="project-card" onclick="toggleExpand(this)">
+    <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
+    <div class="project-header">
+      <h3 class="project-title"><span class="project-icon"></span>Gaussian Splatting Path Tracer</h3>
+    </div>
+    <div class="badges">
+      <span class="status-badge">Complete</span>
+      <span class="tech-stack">C++</span>
+    </div>
+    <p class="project-description">
+      3D Gaussian Splatting ray intersection integrated into a Monte Carlo path tracer.
+    </p>
+    <div class="expand-indicator">Click for details</div>
+    
+    <div class="expanded-content">
+      <div class="features-list">
+        <h4>Implemented Features:</h4>
+        <ul>
+          <li><strong>3D Gaussian Splatting ray intersection:</strong> ellipsoid hit testing in Mahalanobis space following <a href="https://arxiv.org/abs/2501.19196" style="color:#58a6ff;" target="_blank">RaySplat (arXiv 2501.19196)</a></li>
+          <li><strong>Gaussian BVH:</strong> dedicated axis-aligned BVH over Gaussian confidence ellipsoids for fast candidate collection</li>
+          <li><strong>Alpha compositing:</strong> front-to-back depth sort by camera-space Z with deterministic tiebreaking; transmittance accumulation matching the 3DGS rasterizer convention</li>
+          <li><strong>Spherical harmonics (degree 3):</strong> view-dependent color evaluation with SH coefficients loaded from PLY</li>
+          <li><strong>PLY loader:</strong> binary PLY reader for 3DGS-trained scenes (63 floats per Gaussian: position, SH coefficients, opacity, scale, rotation quaternion)</li>
+        </ul>
+      </div>
+      <img src="https://brendanbarber.github.io/Homework1/bonsai_test.png" alt="Bonsai static with mirror sphere" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+      <p style="color: #8b949e; font-size: 0.85em; margin-top: -10px; font-style: italic;">Bonsai Static — 1.16 M Gaussians with Mirror Sphere</p>
+      <img src="https://brendanbarber.github.io/Homework1/kitchen_table_test.png" alt="Kitchen table static render" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+      <p style="color: #8b949e; font-size: 0.85em; margin-top: -10px; font-style: italic;">Kitchen Table — 1.86 M Gaussians</p>
+      <video controls style="width: 100%; border-radius: 8px; margin: 20px 0;">
+        <source src="https://brendanbarber.github.io/Homework1/kitchen_table_wobble.mp4" type="video/mp4">
+      </video>
+      <p style="color: #8b949e; font-size: 0.85em; margin-top: -10px; font-style: italic;">Kitchen Table Wobble Animation</p>
+      <p style="color: #8b949e; margin-top: 15px; font-style: italic;">Code not available due to academic integrity reasons.</p>
+      <div class="project-links">
+        <a href="https://brendanbarber.github.io/Homework1/" class="project-link" target="_blank">View Project</a>
       </div>
     </div>
   </div>
@@ -554,6 +628,73 @@ body {
       <div class="project-links">
         <a href="https://github.com/GilanRanger/MCME-Music" class="project-link" target="_blank">View Code</a>
         <a href="https://www.mcmiddleearth.com/" class="project-link" target="_blank">Experience it</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card" onclick="toggleExpand(this)">
+    <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
+    <div class="project-header">
+      <h3 class="project-title"><span class="project-icon"></span>Codekata</h3>
+    </div>
+    <div class="badges">
+      <span class="status-badge">Complete</span>
+      <span class="tech-stack">JavaScript</span>
+      <span class="tech-stack">HTML/CSS</span>
+      <span class="tech-stack">Team Lead</span>
+    </div>
+    <p class="project-description">
+      A code typing game built by a team I led for CSE 110. Players type HTML/CSS code from prompts while viewing a live rendered preview.
+    </p>
+    <div class="expand-indicator">Click for details</div>
+    
+    <div class="expanded-content">
+      <div class="features-list">
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Difficulty and level selection</li>
+          <li>Live code preview rendering</li>
+          <li>Customizable settings and themes</li>
+          <li>Progress tracking, a built-in timer, and typing metrics</li>
+        </ul>
+      </div>
+      <img src="../assets/Codekata.png" alt="Codekata gameplay" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+      <div class="project-links">
+        <a href="https://cse110.timothyw.dev/" class="project-link" target="_blank">Live Demo</a>
+        <a href="https://github.com/cse110-sp26-group23/cse110-sp26-group23" class="project-link" target="_blank">View Code</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="project-card" onclick="toggleExpand(this)">
+    <button class="close-btn" onclick="event.stopPropagation(); toggleExpand(this.parentElement)">×</button>
+    <div class="project-header">
+      <h3 class="project-title"><span class="project-icon"></span>Great Lakes Sailwind Mod</h3>
+    </div>
+    <div class="badges">
+      <span class="status-badge">Complete</span>
+      <span class="tech-stack">C#</span>
+      <span class="tech-stack">BepInEx</span>
+      <span class="tech-stack">Python</span>
+    </div>
+    <p class="project-description">
+      A total-conversion mod for Sailwind that relocates the game world to the real North American Great Lakes.
+    </p>
+    <div class="expand-indicator">Click for details</div>
+    
+    <div class="expanded-content">
+      <div class="features-list">
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Islands, docks, and coastlines relocated to true Great Lakes coordinates, with generated coastline meshes for Superior, Michigan, Huron, Erie, and Ontario</li>
+          <li>A real celestial sky with authentic seasonal sun declination and the 1850 naked-eye star field, enabling genuine celestial navigation</li>
+          <li>A period 1850 Nautical Almanac with sun tables, navigational stars, and a live noon-sight reducer</li>
+          <li>In-game charts and a region menu for the Great Lakes</li>
+        </ul>
+      </div>
+      <img src="../assets/GreatLakesMod.png" alt="Great Lakes Sailwind map" style="width: 100%; border-radius: 8px; margin: 20px 0;">
+      <div class="project-links">
+        <a href="https://github.com/GilanRanger/GreatLakesSailwind" class="project-link" target="_blank">View Code</a>
       </div>
     </div>
   </div>
