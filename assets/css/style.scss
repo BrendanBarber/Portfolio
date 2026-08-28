@@ -1,14 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-body {
-    padding: 0 25%; /* 25% padding on each side */
-    box-sizing: border-box;
-}
-
-.wrapper {
-    width: 100%;
-    max-width: none;
-}
+/* Primer theme import removed for the pixel-art redesign.
+   The whole site is styled by assets/css/pixel.css, which is linked
+   in _layouts/default.html via {{ '/assets/css/pixel.css' | relative_url }}.
+   This file is intentionally left without the theme @import so no Primer
+   CSS leaks into the build. */

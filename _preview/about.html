@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Pixel Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/pixel.css">
+<style>
+.vigctl{ position:fixed; top:12px; right:12px; z-index:100; display:flex; align-items:center; gap:10px;
+  padding:10px 12px; background:#2F3E1E; border:3px solid var(--green-lt); box-shadow:3px 3px 0 #1b2612;
+  font-family:var(--font-head); font-size:10px; letter-spacing:.5px; color:var(--green-lt); }
+.vigctl input[type=range]{ width:120px; accent-color:var(--green-lt); }
+.vigctl .val{ color:#EFE1C2; min-width:26px; text-align:right; }
+</style>
+</head>
+<body>
+
+<div class="vignette" id="vignette"></div>
+<div class="vigctl"><span>VIGNETTE</span><input type="range" id="vigrange" min="0" max="100" value="60"><span class="val" id="vigval">60</span></div>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-user" viewBox="0 0 24 24"><path fill="currentColor" d="M15 2H9v2H7v6h2V4h6V2zm0 8H9v2h6v-2zm0-6h2v6h-2V4zM4 16h2v-2h12v2H6v4h12v-4h2v6H4v-6z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5h2v2H8V5zM6 7h2v2H6V7zM4 9h2v2H4V9zm-2 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 2h2v2H8v-2zm8-12h-2v2h2V5zm2 2h-2v2h2V7zm2 2h-2v2h2V9zm2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2z"/></symbol>
+  <symbol id="i-gamepad" viewBox="0 0 24 24"><path fill="currentColor" d="M2 5h20v14H2V5zm18 12V7H4v10h16zM8 9h2v2h2v2h-2v2H8v-2H6v-2h2V9zm6 0h2v2h-2V9zm4 4h-2v2h2v-2z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path fill="currentColor" d="M8 2h12v20H4V2h4zm4 8h-2v2H8V4H6v16h12V4h-4v8h-2v-2z"/></symbol>
+  <symbol id="i-book2" viewBox="0 0 24 24"><path fill="currentColor" d="M8 2h12v20H4V2h4zm4 8h-2v2H8V4H6v16h12V4h-4v8h-2v-2z"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2h8v2h-2v2h-2V4H6V2ZM4 6V4h2v2H4Zm0 10H2V6h2v10Zm2 2H4v-2h2v2Zm2 2H6v-2h2v2Zm10 0v2H8v-2h10Zm2-2v2h-2v-2h2Zm-2-4h2v4h2v-8h-2v2h-2v2Zm-6 0v2h6v-2h-6Zm-2-2h2v2h-2v-2Zm0 0V6H8v6h2Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><path fill="currentColor" d="M13 3h-2v2h2V3zm4 2h2v2h-2V5zm-6 6h2v2h-2v-2zm-8 0h2v2H3v-2zm18 0h-2v2h2v-2zM5 5h2v2H5V5zm14 14h-2v-2h2v2zm-8 2h2v-2h-2v2zm-4-2H5v-2h2v2zM9 7h6v2H9V7zm0 8H7V9h2v6zm0 0v2h6v-2h2V9h-2v6H9z"/></symbol>
+</svg>
+
+<nav class="nav">
+  <span class="brand"><svg class="ico"><use href="#i-code"/></svg> Brendan Barber</span>
+  <a class="pill" href="about.html">ABOUT</a>
+  <a class="pill" href="projects.html">TECHNICAL</a>
+  <a class="pill" href="index.html">CREATIVE</a>
+  <a class="pill" href="index.html">CONTACT</a>
+  <button class="pill toggle" id="themeToggle" title="Toggle day / night">
+    <svg class="ico moon"><use href="#i-moon"/></svg>
+    <svg class="ico sun"><use href="#i-sun"/></svg>
+  </button>
+</nav>
+
+<div class="wrap">
+
+<h2 class="sec-title working"><svg class="ico"><use href="#i-user"/></svg> About Me</h2>
+<p class="bio">Hello! I'm Brendan, a computer science student with a fascination for graphics programming and creative technologies. I love bridging the gap between artistic vision and technical implementation, whether that's building VFX tools for artists or creating video games. When I'm not coding, you'll find me practicing violin, playing casual ice hockey, or getting lost in a good book.</p>
+
+<div class="about-cards">
+  <div class="info-card">
+    <h3><svg class="ico"><use href="#i-gamepad"/></svg> Games I'm Playing</h3>
+    <ul class="pixel-list">
+      <li>SILKSONG</li>
+      <li>Rocket League</li>
+      <li>Vintage Story</li>
+      <li>Kingdom Come Deliverance II</li>
+    </ul>
+  </div>
+  <div class="info-card">
+    <h3><svg class="ico"><use href="#i-book"/></svg> Currently Reading</h3>
+    <ul class="pixel-list">
+      <li>"Dune" by Frank Herbert</li>
+      <li>"Salt Sugar Fat" by Michael Moss</li>
+    </ul>
+  </div>
+</div>
+
+<div class="edu-panel">
+  <h2>Education</h2>
+  <h3>University of California, San Diego</h3>
+  <p><strong style="color:var(--hero-text);">Bachelor of Science in Computer Science</strong></p>
+  <p>Expected Graduation: 2027</p>
+  <div class="courses">
+    <strong>Relevant Coursework</strong>
+    <span class="tag cream">Data Structures &amp; Algorithms</span>
+    <span class="tag cream">Computer Graphics</span>
+    <span class="tag cream">Software Engineering</span>
+  </div>
+</div>
+
+</div>
+
+<script>
+(function(){
+  var root = document.documentElement;
+  var toggle = document.getElementById('themeToggle');
+  function setTheme(t){ root.setAttribute('data-theme', t); localStorage.setItem('theme', t); }
+  toggle.addEventListener('click', function(){ setTheme(root.getAttribute('data-theme') === 'night' ? 'day' : 'night'); });
+  setTheme(localStorage.getItem('theme') || 'day');
+  var vig = document.getElementById('vignette'), range = document.getElementById('vigrange'), val = document.getElementById('vigval');
+  function applyVig(v){ vig.style.opacity = (v/100).toFixed(2); val.textContent = v; range.value = v; localStorage.setItem('vigStrength', v); }
+  range.addEventListener('input', function(){ applyVig(range.value); });
+  var sv = localStorage.getItem('vigStrength'); applyVig(sv !== null ? sv : 60);
+})();
+</script>
+</body>
+</html>

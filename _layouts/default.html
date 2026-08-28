@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+
+  <!-- Set theme before first paint: saved choice, else match the visitor's OS. -->
+  <script>(function(){var t;try{t=localStorage.getItem('theme');}catch(e){}
+if(!t){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'night':'day';}
+document.documentElement.setAttribute('data-theme',t);})();</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/pixel.css' | relative_url }}">
+</head>
+<body>
+  <div class="vignette"></div>
+  {% include icon-sprite.html %}
+  {% include nav.html %}
+
+  <div class="wrap">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+  <script src="{{ '/assets/js/pixel.js' | relative_url }}"></script>
+</body>
+</html>
