@@ -11,17 +11,17 @@ title: About
   <div class="info-card">
     <h3><svg class="ico"><use href="#i-gamepad"/></svg> Games I'm Playing</h3>
     <ul class="pixel-list">
-      <li>SILKSONG</li>
       <li>Rocket League</li>
+      <li>NHL 14</li>
+      <li>Hytale</li>
       <li>Vintage Story</li>
-      <li>Kingdom Come Deliverance II</li>
     </ul>
   </div>
   <div class="info-card">
     <h3><svg class="ico"><use href="#i-book"/></svg> Currently Reading</h3>
     <ul class="pixel-list">
-      <li>"Dune" by Frank Herbert</li>
-      <li>"Salt Sugar Fat" by Michael Moss</li>
+      <li>"Mistborn: The Well of Ascension" by Brandon Sanderson</li>
+      <li>"Play Nice" by Jason Schreier</li>
     </ul>
   </div>
 </div>
