@@ -11,6 +11,10 @@
 if(!t){t=(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)?'night':'day';}
 document.documentElement.setAttribute('data-theme',t);})();</script>
 
+  <!-- Apply the readable-font choice before first paint (avoids a flash). -->
+  <script>(function(){var f;try{f=localStorage.getItem('font');}catch(e){}
+if(f==='readable'){document.documentElement.setAttribute('data-font','readable');}})();</script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=VT323&display=swap" rel="stylesheet">
@@ -26,6 +30,7 @@ document.documentElement.setAttribute('data-theme',t);})();</script>
   </div>
 
   {% include footer.html %}
+  {% include font-prompt.html %}
   <script src="{{ '/assets/js/pixel.js' | relative_url }}"></script>
 </body>
 </html>

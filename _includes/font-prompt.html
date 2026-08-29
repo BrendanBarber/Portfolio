@@ -1,0 +1,26 @@
+<!-- First-visit font chooser. Hidden by default; pixel.js reveals it only
+     when the visitor has not yet picked a font, and dismisses it by shrinking
+     the card toward the font toggle in the nav. -->
+<div class="font-prompt" id="fontPrompt" hidden role="dialog" aria-modal="true" aria-labelledby="fpTitle">
+  <div class="font-prompt-backdrop"></div>
+  <div class="font-prompt-card">
+    <h2 id="fpTitle" class="fp-title">Pick a font</h2>
+    <p class="fp-lead">This site is set in a pixel-art font. Prefer something easier to read? Choose below — you can switch anytime with the <svg class="ico"><use href="#i-font"/></svg> button up top.</p>
+    <div class="fp-samples">
+      <div class="fp-sample fp-pixel">
+        <span class="fp-tag">PIXEL</span>
+        <span class="fp-h">Brendan Barber</span>
+        <span class="fp-b">Computer Science student &amp; maker.</span>
+      </div>
+      <div class="fp-sample fp-readable">
+        <span class="fp-tag">READABLE</span>
+        <span class="fp-h">Brendan Barber</span>
+        <span class="fp-b">Computer Science student &amp; maker.</span>
+      </div>
+    </div>
+    <div class="fp-actions">
+      <button class="fp-btn" type="button" data-font-choice="pixel">USE PIXEL</button>
+      <button class="fp-btn" type="button" data-font-choice="readable">USE READABLE</button>
+    </div>
+  </div>
+</div>

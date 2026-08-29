@@ -45,6 +45,7 @@
   <symbol id="i-code" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5h2v2H8V5zM6 7h2v2H6V7zM4 9h2v2H4V9zm-2 2h2v2H2v-2zm2 2h2v2H4v-2zm2 2h2v2H6v-2zm2 2h2v2H8v-2zm8-12h-2v2h2V5zm2 2h-2v2h2V7zm2 2h-2v2h2V9zm2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2zm-2 2h-2v2h2v-2z"/></symbol>
   <symbol id="i-moon" viewBox="0 0 24 24"><path fill="currentColor" d="M6 2h8v2h-2v2h-2V4H6V2ZM4 6V4h2v2H4Zm0 10H2V6h2v10Zm2 2H4v-2h2v2Zm2 2H6v-2h2v2Zm10 0v2H8v-2h10Zm2-2v2h-2v-2h2Zm-2-4h2v4h2v-8h-2v2h-2v2Zm-6 0v2h6v-2h-6Zm-2-2h2v2h-2v-2Zm0 0V6H8v6h2Z"/></symbol>
   <symbol id="i-sun" viewBox="0 0 24 24"><path fill="currentColor" d="M13 3h-2v2h2V3zm4 2h2v2h-2V5zm-6 6h2v2h-2v-2zm-8 0h2v2H3v-2zm18 0h-2v2h2v-2zM5 5h2v2H5V5zm14 14h-2v-2h2v2zm-8 2h2v-2h-2v2zm-4-2H5v-2h2v2zM9 7h6v2H9V7zm0 8H7V9h2v6zm0 0v2h6v-2h2V9h-2v6H9z"/></symbol>
+  <symbol id="i-font" viewBox="0 0 24 24"><rect fill="currentColor" x="8" y="4" width="8" height="4"/><rect fill="currentColor" x="6" y="8" width="4" height="12"/><rect fill="currentColor" x="14" y="8" width="4" height="12"/><rect fill="currentColor" x="8" y="12" width="8" height="4"/></symbol>
 </svg>
 
 <!-- ============ NAV ============ -->
@@ -54,11 +55,39 @@
   <a class="pill" href="#">TECHNICAL</a>
   <a class="pill" href="#">CREATIVE</a>
   <a class="pill" href="#">CONTACT</a>
+  <button class="pill toggle" id="fontToggle" aria-pressed="false" title="Toggle a more readable font" aria-label="Toggle a more readable font">
+    <svg class="ico"><use href="#i-font"/></svg>
+  </button>
   <button class="pill toggle" id="themeToggle" title="Toggle day / night">
     <svg class="ico moon"><use href="#i-moon"/></svg>
     <svg class="ico sun"><use href="#i-sun"/></svg>
   </button>
 </nav>
+
+<!-- ============ FIRST-VISIT FONT PROMPT ============ -->
+<div class="font-prompt" id="fontPrompt" hidden role="dialog" aria-modal="true" aria-labelledby="fpTitle">
+  <div class="font-prompt-backdrop"></div>
+  <div class="font-prompt-card">
+    <h2 id="fpTitle" class="fp-title">Pick a font</h2>
+    <p class="fp-lead">This site is set in a pixel-art font. Prefer something easier to read? Choose below — you can switch anytime with the <svg class="ico"><use href="#i-font"/></svg> button up top.</p>
+    <div class="fp-samples">
+      <div class="fp-sample fp-pixel">
+        <span class="fp-tag">PIXEL</span>
+        <span class="fp-h">Brendan Barber</span>
+        <span class="fp-b">Computer Science student &amp; maker.</span>
+      </div>
+      <div class="fp-sample fp-readable">
+        <span class="fp-tag">READABLE</span>
+        <span class="fp-h">Brendan Barber</span>
+        <span class="fp-b">Computer Science student &amp; maker.</span>
+      </div>
+    </div>
+    <div class="fp-actions">
+      <button class="fp-btn" type="button" data-font-choice="pixel">USE PIXEL</button>
+      <button class="fp-btn" type="button" data-font-choice="readable">USE READABLE</button>
+    </div>
+  </div>
+</div>
 
 <div class="wrap">
 
@@ -131,6 +160,62 @@
     setTheme(root.getAttribute('data-theme') === 'night' ? 'day' : 'night');
   });
   setTheme(localStorage.getItem('theme') || 'day');
+
+  /* readable-font toggle + shared apply (mirrors assets/js/pixel.js) */
+  var fontToggle = document.getElementById('fontToggle');
+  function applyFont(mode, persist){
+    var readable = mode === 'readable';
+    if(readable){ root.setAttribute('data-font', 'readable'); }
+    else { root.removeAttribute('data-font'); }
+    if(persist !== false){ localStorage.setItem('font', readable ? 'readable' : 'pixel'); }
+    fontToggle.setAttribute('aria-pressed', readable ? 'true' : 'false');
+  }
+  applyFont(localStorage.getItem('font') === 'readable' ? 'readable' : 'pixel', false);
+  fontToggle.addEventListener('click', function(){
+    applyFont(root.getAttribute('data-font') === 'readable' ? 'pixel' : 'readable');
+  });
+
+  /* first-visit font prompt */
+  var fontPrompt = document.getElementById('fontPrompt');
+  if(fontPrompt && !localStorage.getItem('font')){
+    fontPrompt.hidden = false;
+    requestAnimationFrame(function(){
+      requestAnimationFrame(function(){ fontPrompt.classList.add('is-open'); });
+    });
+    fontPrompt.addEventListener('click', function(e){
+      var choice = e.target.closest('[data-font-choice]');
+      if(!choice) return;
+      applyFont(choice.getAttribute('data-font-choice'));
+      closeFontPrompt();
+    });
+    document.addEventListener('keydown', function onEsc(e){
+      if(e.key === 'Escape' && !fontPrompt.hidden){
+        applyFont('pixel'); closeFontPrompt();
+        document.removeEventListener('keydown', onEsc);
+      }
+    });
+  }
+  function closeFontPrompt(){
+    var card = fontPrompt.querySelector('.font-prompt-card');
+    fontPrompt.classList.remove('is-open');
+    fontPrompt.classList.add('is-closing');
+    if(card && fontToggle){
+      var cr = card.getBoundingClientRect(), br = fontToggle.getBoundingClientRect();
+      var dx = (br.left + br.width/2) - (cr.left + cr.width/2);
+      var dy = (br.top + br.height/2) - (cr.top + cr.height/2);
+      card.style.transition = 'transform .5s cubic-bezier(.5,0,.25,1), opacity .5s ease';
+      card.style.transformOrigin = 'center center';
+      card.style.transform = 'translate(' + dx + 'px,' + dy + 'px) scale(.04)';
+      card.style.opacity = '0';
+      setTimeout(function(){
+        fontToggle.classList.add('just-set');
+        setTimeout(function(){ fontToggle.classList.remove('just-set'); }, 500);
+      }, 360);
+    }
+    var done = function(){ fontPrompt.hidden = true; fontPrompt.classList.remove('is-closing'); };
+    if(card){ card.addEventListener('transitionend', done, { once:true }); }
+    setTimeout(done, 700);
+  }
 
   /* vignette slider (preview-only) */
   var vig = document.getElementById('vignette');
