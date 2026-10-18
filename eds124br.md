@@ -24,6 +24,11 @@ permalink: /eds124br/
   -->
 
   <div class="contact-panel">
+    <h2><svg class="ico"><use href="#i-movie"/></svg> Write and Explain a Program &mdash; Week 3</h2>
+    <a href="https://youtu.be/VUbJy4UKVM4" target="_blank" rel="noopener" class="linkbtn blue"><svg class="ico"><use href="#i-movie"/></svg> Video</a>
+  </div>
+
+  <div class="contact-panel">
     <h2><svg class="ico"><use href="#i-movie"/></svg> Animal Parade Explanation</h2>
     <a href="https://youtu.be/eicvVpS0HtM" target="_blank" rel="noopener" class="linkbtn blue"><svg class="ico"><use href="#i-movie"/></svg> Video</a>
   </div>
