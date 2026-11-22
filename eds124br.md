@@ -24,6 +24,11 @@ permalink: /eds124br/
   -->
 
   <div class="contact-panel">
+    <h2><svg class="ico"><use href="#i-movie"/></svg> Explain a Program &mdash; Week 8</h2>
+    <a href="https://youtu.be/d8QM8lJ0l7Y" target="_blank" rel="noopener" class="linkbtn blue"><svg class="ico"><use href="#i-movie"/></svg> Video</a>
+  </div>
+
+  <div class="contact-panel">
     <h2><svg class="ico"><use href="#i-movie"/></svg> Explain a Program &mdash; Week 7</h2>
     <a href="https://youtu.be/Qhs7CbddoAk" target="_blank" rel="noopener" class="linkbtn blue"><svg class="ico"><use href="#i-movie"/></svg> Video</a>
   </div>
